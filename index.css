@@ -12,12 +12,17 @@ body {
 
 #main-box {
     background-color: rgba(176, 222, 255, 0.9);
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+#info-story {
+    margin-top: 10%;
 }
 
 #table-box {
     border: 1px solid white;
-    margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 #info-table, td, th {

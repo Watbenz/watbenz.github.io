@@ -28,7 +28,9 @@ var info = [
 ];
 
 var headStory = "ผมชื่อ เบ็นซ์ เรียกสั้นๆ ว่า เบ้น แล้วใช้ชื่อสำหรับทุกอย่างว่า watbenz";
-var story = "&emsp; &ensp; ผมและครอบครัวอยู่อาศัยอยู่ที่จังหวัดนครปฐม";
+var story = "&emsp; &ensp; ผมและครอบครัวอยู่อาศัยอยู่ที่จังหวัดนครปฐมตั้งแต่จำความได้ ทุกอย่างก็ดูปกติดีและไม่มีอะไรพิเศษ"
+            + "จนกระทั่งขึ้นมหาวิทยาลัยและเรียนที่มหาวิทยาลัยเกษตรศาสตร์";
 
 createRowData('info-table', info);
-addParagraph('info-story', story)
+addParagraph('header', headStory);
+addParagraph('info-story', story);

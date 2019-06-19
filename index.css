@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    background-image: url("https://juniperoats.com/wp-content/uploads/2019/01/JuniperOats_blogposts-15-houseplants-for-minimalists.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#main-box {
+    background-color: rgba(176, 222, 255, 0.9);
+}
+
+#table-box {
+    border: 1px solid white;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+#info-table, td, th {
+    text-align: center;
+}
